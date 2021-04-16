@@ -1,49 +1,76 @@
-import { Box, Text, Stack } from "@chakra-ui/react"
+import { Box, Stack, Flex  } from "@chakra-ui/react"
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Home() {
   return (
     <Box
       align="center"
-      mt={61}
       h="100vh"
     >
-      <Box>
+      <Box p={4}>
         <Image
           src="/logo.svg"
           alt="Ducati Logo"
-          width={110}
-          height={117}
+          width={90}
+          height={97}
         />
       </Box>
-      <Box mt={45}>
+      <Box >
         <Image
           src="/monster.svg"
           alt="Monster Logo"
-          width={322}
-          height={20}
+          width={300}
+          height={16}
         />
       </Box>
+
       <Box textStyle="h1" color="white">797</Box>
+      <Flex
+        mt={16}
+        align="center"
+        justify="space-between"
+        maxW={1000}
+
+      >
+        <Link href="#">
+          <Image
+            src="/arrow-left.svg"
+            alt="Monster Logo"
+            width={70}
+            height={70}
+          />
+        </Link>
+        <Link href="#">
+          <Image
+            src="/arrow-right.svg"
+            alt="Monster Logo"
+            width={70}
+            height={70}
+          />
+        </Link>
+
+      </Flex>
       <Box
         align="center"
-        maxW={1440}
-
-        mx={8}
-        pb={8}
+        maxW={1180}
         borderRadius={50}
-        bg="white">
+        bg="white"
+        mt="32px"
+      >
         <Box
           align="left"
-          ml="80px"
-          my="44px"
+          py="32px"
+          px="64px"
         >
-          <Stack spacing={3}>
-            <Box textStyle="h3" mt="44px" le>Displacement</Box>
+          <Stack spacing={1}>
             <Box>
-
-              <Box textStyle="h3" mt={12}>Horse Power</Box>
+              <Box textStyle="h3" >Displacement</Box>
+              <Box textStyle="h2" letterSpacing={4}>73 hp (54 kW)</Box>
+            </Box>
+            <Box>
+              <Box textStyle="h3" >Horse Power</Box>
               <Box textStyle="h2" letterSpacing={4}>73 hp (54 kW)</Box>
             </Box>
             <Box>
@@ -67,7 +94,7 @@ export default function Home() {
       </Box>
       <Box
         position="relative"
-        top={-775}
+        top={-730}
       >
         <Image
           src="/M1.png"
