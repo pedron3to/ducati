@@ -17,12 +17,21 @@ export const theme = extendTheme({
     h3: {
       fontSize: "16px",
       fontWeight: "light",
+
+    },
+    h4: {
+      fontSize: "50px",
+      fontWeight: "regular",
+      fontFamily: "Italianno",
     },
   },
 
   colors: {
     white: {
       "50": "#fff"
+    },
+    gray: {
+      "500": "#e4e4e4"
     },
     red: {
       "500": "#DF1F26"
@@ -36,6 +45,7 @@ export const theme = extendTheme({
   fonts: {
     body: 'Lato',
     heading: 'Lato',
+
   },
   styles: {
     global: {

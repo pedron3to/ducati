@@ -1,7 +1,12 @@
 import { AppProps } from "next/app"
 import { ChakraProvider } from "@chakra-ui/react"
 import { theme } from "../styles/theme"
-// import Layout from "../components/Layout/Layout"
+import mirageServer from '../services/mirage'
+
+
+if (process.env.NODE_ENV === 'development') {
+  mirageServer();
+}
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -14,7 +14,8 @@
     "framer-motion": "^4",
     "next": "10.1.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-query": "^3.13.9"
   },
   "devDependencies": {
     "@types/react": "^17.0.3",
@@ -27,6 +28,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
+    "miragejs": "^0.1.41",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
   }
