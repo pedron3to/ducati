@@ -1,7 +1,5 @@
-import {
-  Box,
-  BoxProps as ChakraBoxProps
-} from "@chakra-ui/react"
+import { Box, BoxProps as ChakraBoxProps } from "@chakra-ui/react"
+import { motion } from 'framer-motion'
 
 interface BoxProps extends ChakraBoxProps {
   title: string;
@@ -12,7 +10,18 @@ export default function BikeInformation({ title, information }: BoxProps) {
   return (
     <>
       <Box textStyle="h3" >{title}</Box>
-      <Box textStyle="h2" letterSpacing={3}>{information}</Box>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{
+          type: "tween",
+          ease: "easeOut",
+          duration: 0.2
+        }}
+      >
+        <Box textStyle="h2" letterSpacing={3}>{information}</Box>
+      </motion.div>
     </>
   )
 }

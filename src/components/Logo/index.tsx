@@ -1,15 +1,28 @@
 import { Box } from "@chakra-ui/react"
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export default function Logo() {
   return (
-    <>
-      <Box p={4}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{
+        type: "tween",
+        ease: "easeOut",
+        duration: 0.2
+      }}
+    >
+      <Box p={4} >
         <Image
-          src="/logo.svg"
+          src="/ducati_id 1.png"
           alt="Ducati Logo"
           width={90}
           height={97}
+          loading="eager"
+
+
         />
       </Box>
       <Box >
@@ -18,7 +31,10 @@ export default function Logo() {
           alt="Monster Logo"
           width={300}
           height={16}
+          loading="eager"
+
         />
-      </Box></>
+      </Box>
+    </motion.div>
   )
 }
