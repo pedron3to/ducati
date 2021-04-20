@@ -9,13 +9,13 @@ export const theme = extendTheme({
       letterSpacing: "32%",
     },
     h2: {
-      fontSize: "20px",
+      fontSize: ["16px", "20px"],
       fontWeight: "bold",
       lineHeight: "121%",
       letterSpacing: "32%",
     },
     h3: {
-      fontSize: "16px",
+      fontSize: ["12px", "16px"],
       fontWeight: "light",
 
     },

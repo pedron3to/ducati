@@ -5,7 +5,6 @@ export default function Layout({ children }) {
   return (
     <Box
       align="center"
-      h="100vh"
       position="relative"
       overflowX="hidden"
     >

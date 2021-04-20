@@ -20,7 +20,7 @@ export default function BikeInformation({ title, information }: BoxProps) {
           duration: 0.2
         }}
       >
-        <Box textStyle="h2" letterSpacing={3}>{information}</Box>
+        <Box textStyle="h2" letterSpacing={[1, 3]}>{information}</Box>
       </motion.div>
     </>
   )

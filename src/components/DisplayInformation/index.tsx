@@ -24,17 +24,18 @@ export default function DisplayInformation({
 }: DisplayInformationProps) {
   return (
     <Flex
-      align="flex-end"
+      align={["flex-star", "flex - end"]}
       justifyContent="space-between"
       maxW={1180}
-      borderRadius={[24, 32, 48]}
+      flexDirection={["column", "column", "row", "row"]}
+      borderRadius={[16, 32, 48]}
       bg="white"
-      mt={44}
+      mt={[20, 44]}
       mx={4}
       py={8}
-      px={8}
+      px={[8]}
     >
-      <Stack spacing={1} align="flex-start" >
+      <Stack spacing={1} align="flex-start" left={[1, 2]} >
         <BikeInformation title="Displacement" information={displacementInfo} />
         <BikeInformation title="Horse Power" information={horsePowerInfo} />
         <BikeInformation title="Torque" information={torqueInfo} />
@@ -65,6 +66,6 @@ export default function DisplayInformation({
         <Box textStyle="h4" letterSpacing={3} fontFamily='Italianno'>Sporty soul.</Box>
       </Box>
 
-    </Flex>
+    </Flex >
   )
 }

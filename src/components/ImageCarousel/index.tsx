@@ -58,7 +58,7 @@ export default function ImageCarousel({
         whileHover={{ x: -15 }}
         transition={{ ease: "easeOut", duration: .2 }}
       >
-        <Link href={pathBefore} passHref>
+        <Link href={pathBefore} passHref prefetch>
           <a>
             <Image
               src="/arrow-left.svg"
@@ -82,7 +82,8 @@ export default function ImageCarousel({
           alt={`motorcycle ${image}`}
           width={888}
           height={550}
-          loading="eager"
+          //loading="eager"
+          priority
         />
       </motion.div>
 
@@ -92,7 +93,7 @@ export default function ImageCarousel({
         whileHover={{ x: 15 }}
         transition={{ ease: "easeOut", duration: .2 }}
       >
-        <Link href={`/${pathAfter}`} passHref>
+        <Link href={`/${pathAfter}`} passHref prefetch>
           <a>
             <Image
               src="/arrow-right.svg"
