@@ -6,7 +6,7 @@ interface BoxProps extends ChakraBoxProps {
   information: string;
 }
 
-export default function BikeInformation({ title, information }: BoxProps) {
+export default function MotorcycleInformation({ title, information }: BoxProps) {
   return (
     <>
       <Box textStyle="h3" >{title}</Box>

@@ -8,7 +8,7 @@ export default function Logo() {
 
       < Box p={[2, 4]} h={97}>
         <Image
-          src="/ducati_id 1.png"
+          src="/logo.webp"
           alt="Ducati Logo"
           width={90}
           height={97}
@@ -18,9 +18,9 @@ export default function Logo() {
 
         />
       </Box>
-      <Box p={[2, 8]}>
+      <Box pt={[2, 8]}>
         <Image
-          src="/monster.svg"
+          src="/monster.webp"
           alt="Monster Logo"
           width={300}
           height={16}

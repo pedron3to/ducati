@@ -47,18 +47,18 @@ export default function ImageCarousel({
       position="absolute"
       justify='center'
       align="center"
-      top={200}
+      top={150}
       ml="auto"
       mr="auto"
-      left={0}
-      right={0}
+      left={[4,0]}
+      right={[4,0]}
 
     >
       <motion.div
         whileHover={{ x: -15 }}
         transition={{ ease: "easeOut", duration: .2 }}
       >
-        <Link href={pathBefore} passHref prefetch>
+        <Link href={`/${pathBefore}`} passHref>
           <a>
             <Image
               src="/arrow-left.svg"
@@ -80,8 +80,8 @@ export default function ImageCarousel({
         <Image
           src={`/${image}`}
           alt={`motorcycle ${image}`}
-          width={888}
-          height={550}
+          width={800}
+          height={631}
           //loading="eager"
           priority
         />
@@ -93,7 +93,7 @@ export default function ImageCarousel({
         whileHover={{ x: 15 }}
         transition={{ ease: "easeOut", duration: .2 }}
       >
-        <Link href={`/${pathAfter}`} passHref prefetch>
+        <Link href={`/${pathAfter}`} passHref >
           <a>
             <Image
               src="/arrow-right.svg"

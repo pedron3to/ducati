@@ -16,7 +16,7 @@ export default function Home() {
         seatHeightInfo="805 mm (31.69 in)"
         torqueInfo="67 Nm (49.0 lb-ft)"
       />
-      <ImageCarousel image="M1.png" pathAfter="m2" pathBefore="/" />
+      <ImageCarousel image="M1.webp" pathAfter="m2" pathBefore="m3" />
     </Box >
 
   )

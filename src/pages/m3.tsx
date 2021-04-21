@@ -15,7 +15,7 @@ export default function m3() {
         seatHeightInfo="805 mm (31.69 in)"
         torqueInfo="67 Nm (49.0 lb-ft)"
       />
-      <ImageCarousel image="M3.png" pathAfter="" pathBefore="m2" />
+      <ImageCarousel image="M3.webp" pathAfter="" pathBefore="m2" />
     </Box >
 
   )
