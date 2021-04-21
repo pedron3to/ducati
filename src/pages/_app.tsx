@@ -1,16 +1,12 @@
 import { AppProps } from "next/app"
 import { ChakraProvider } from "@chakra-ui/react"
 import { theme } from "../styles/theme"
-import mirageServer from '../services/mirage'
 import { motion, AnimatePresence } from "framer-motion"
 import { useRouter } from "next/router"
 import Layout from '../components/Layout'
 
 
 
-if (process.env.NODE_ENV === 'development') {
-  mirageServer();
-}
 
 function MyApp({ Component, pageProps }: AppProps,) {
   const router = useRouter()
