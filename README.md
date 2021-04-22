@@ -1,6 +1,38 @@
 
+<h1 align="center">
+    <img alt="Ducati Web Page" title="#Ducati" src="./public/ducati.png" />
+</h1>
+
 <h1 align="center">Monster Line Ducati Web Page</h1>
-<p align="center">Turn Redesign made by Dmitriy Ivanenko into Reality</p>
+<p align="center">Turn Redesign made by Dmitriy Ivanenko into reality</p>
+
+Status
+
+
+### Features
+
+- [x] Optimized for Mobile
+- [x] Fast Load
+- [x] Easy to Use
+
+### 🛠 Tecnologies
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Chakra-UI](https://chakra-ui.com/)
+
+### 🛠 Author
+
+Pedro Cassiano de Araujo Neto Sartor
+
+- [Instagram](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Framer Motion](https://www.framer.com/motion/)
+
 
 https://dribbble.com/Dmitriy_Ivanenko
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
