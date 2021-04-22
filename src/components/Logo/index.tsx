@@ -6,25 +6,25 @@ export default function Logo() {
   return (
     <>
 
-      < Box p={[2, 4]} h={97}>
+      < Box p={[2, 4]} w={[14,90]}>
         <Image
           src="/logo.webp"
           alt="Ducati Logo"
           width={90}
           height={97}
           //loading="eager"
-          layout="intrinsic"
+          layout="responsive"
           priority
 
         />
       </Box>
-      <Box pt={[2, 8]}>
+      <Box pt={[, 8]} w={[28,300]}>
         <Image
           src="/monster.webp"
           alt="Monster Logo"
           width={300}
           height={16}
-          layout="intrinsic"
+          layout="responsive"
           //loading="eager"
           priority
 

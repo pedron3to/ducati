@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'
-import { Flex } from "@chakra-ui/react"
+import { Flex, Box } from "@chakra-ui/react"
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -47,7 +47,7 @@ export default function ImageCarousel({
       position="absolute"
       justify='center'
       align="center"
-      top={150}
+      top={["80px",150]}
       ml="auto"
       mr="auto"
       left={[4,0]}
@@ -76,15 +76,18 @@ export default function ImageCarousel({
         exit={{ x: "-100vh", opacity: 0, }}
         variants={pageVariants}
         transition={pageTransition}
-      >
+        w={800}
+      > <Box  width={[240,800]}>
         <Image
           src={`/${image}`}
           alt={`motorcycle ${image}`}
           width={800}
           height={631}
+          layout="responsive"
           //loading="eager"
           priority
         />
+        </Box>
       </motion.div>
 
 

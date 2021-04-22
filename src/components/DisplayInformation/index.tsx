@@ -32,10 +32,10 @@ export default function DisplayInformation({
       bg="white"
       mt={[20, 40]}
       mx={4}
-      py={8}
-      px={[8]}
+      py={[5,8]}
+      px={[5,8]}
     >
-      <Stack spacing={1} align="flex-start" left={[1, 2]} >
+      <Stack spacing={[0,1]} align="flex-start" left={[0, 2]} >
         <MotorcycleInformation title="Displacement" information={displacementInfo} />
         <MotorcycleInformation title="Horse Power" information={horsePowerInfo} />
         <MotorcycleInformation title="Torque" information={torqueInfo} />

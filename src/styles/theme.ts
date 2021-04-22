@@ -9,7 +9,7 @@ export const theme = extendTheme({
       letterSpacing: "32%",
     },
     h2: {
-      fontSize: ["16px", "20px"],
+      fontSize: ["12px", "20px"],
       fontWeight: "bold",
       lineHeight: "121%",
       letterSpacing: "32%",
@@ -20,7 +20,7 @@ export const theme = extendTheme({
 
     },
     h4: {
-      fontSize: ["28px","50px"],
+      fontSize: ["20px","50px"],
       fontWeight: "regular",
       fontFamily: "Italianno",
     },
