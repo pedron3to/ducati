@@ -47,7 +47,7 @@ export default function ImageCarousel({
       position="absolute"
       justify='center'
       align="center"
-      top={["64px",150]}
+      top={["70px",150]}
       ml="auto"
       mr="auto"
       left={[4,0]}
@@ -81,7 +81,7 @@ export default function ImageCarousel({
         variants={pageVariants}
         transition={pageTransition}
 
-      > <Box  width={[220,800]}>
+      > <Box  width={[240,800]}>
         <Image
           src={`/${image}`}
           alt={`motorcycle ${image}`}
