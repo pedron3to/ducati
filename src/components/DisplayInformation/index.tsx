@@ -32,7 +32,8 @@ export default function DisplayInformation({
       bg="white"
       mt={["74px", 40]}
       mx={[10,4]}
-      py={[5,8]}
+      pt={[5,8]}
+      pb={[2,8]}
       px={[5,8]}
     >
       <Stack spacing={[0,1]} align="flex-start" left={[0, 2]} >
