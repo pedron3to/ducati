@@ -3,10 +3,32 @@
     <img alt="Ducati Web Page" title="#Ducati" src="./public/ducati.PNG" />
 </h1>
 
-<h1 align="center">Monster Line Ducati Web Page</h1>
-<p align="center">Turn Redesign made by Dmitriy Ivanenko into reality</p>
+<h1 align="center">
+   ♻️ <a href="#Ducati"> Monster Line Ducati Web Page </a>
+</h1>
 
-Status
+
+
+<h3 align="center">
+    Turn Redesign made by Dmitriy Ivanenko into reality
+</h3>
+
+<h4 align="center">
+	 Status: Finished
+</h4>
+
+
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#layout">Layout</a> •
+ <a href="#how-it-works">How it works</a> •
+ <a href="#tech-stack">Tech Stack</a> •
+ <a href="#contributors">Contributors</a> •
+ <a href="#author">Author</a> •
+ <a href="#user-content-license">License</a>
+</p>
+
 
 
 ### Features
@@ -16,8 +38,7 @@ Status
 - [x] Easy to Use
 
 ### 🛠 Tecnologies
-
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used to build this project:
 
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
