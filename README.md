@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Ducati Web Page" title="#Ducati" src="./public/ducati.png" />
+    <img alt="Ducati Web Page" title="#Ducati" src="./public/ducati.PNG" />
 </h1>
 
 <h1 align="center">Monster Line Ducati Web Page</h1>
