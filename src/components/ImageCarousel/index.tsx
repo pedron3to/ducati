@@ -47,7 +47,7 @@ export default function ImageCarousel({
       position="absolute"
       justify='center'
       align="center"
-      top={["70px",150]}
+      top={["60px",150]}
       ml="auto"
       mr="auto"
       left={[4,0]}
