@@ -1,3 +1,8 @@
+
+<h1 align="center">Monster Line Ducati Web Page</h1>
+<p align="center">Turn Redesign made by Dmitriy Ivanenko into Reality</p>
+
+https://dribbble.com/Dmitriy_Ivanenko
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
