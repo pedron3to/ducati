@@ -19,7 +19,6 @@
 
 
 <p align="center">
- <a href="#about">About</a> •
  <a href="#features">Features</a> •
  <a href="#layout">Layout</a> •
  <a href="#how-it-works">How it works</a> •
@@ -29,14 +28,12 @@
  <a href="#user-content-license">License</a>
 </p>
 
-
-
 ### Features
 
 - [x] Optimized for Mobile
 - [x] Fast Load
 - [x] Easy to Use
-
+---
 ### 🛠 Tecnologies
 The following tools were used to build this project:
 
