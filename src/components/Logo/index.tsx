@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <>
 
-      < Box p={[3, 4]} w={[14,90]} mt={[2,0]}>
+      < Box pt={[3, 4, 4, 4]} w={[10, 50, 70, 90]} >
         <Image
           src="/logo.webp"
           alt="Ducati Logo"
@@ -18,7 +18,7 @@ export default function Logo() {
 
         />
       </Box>
-      <Box pt={[, 8]} w={[28,300]}>
+      <Box pt={[2, 4, 6, 8]} w={[28, 150, 200, 300]}>
         <Image
           src="/monster.webp"
           alt="Monster Logo"

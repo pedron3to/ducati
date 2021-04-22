@@ -47,11 +47,11 @@ export default function ImageCarousel({
       position="absolute"
       justify='center'
       align="center"
-      top={["60px",150]}
+      top={["60px", "120px", "130px", "150px"]}
       ml="auto"
       mr="auto"
-      left={[4,0]}
-      right={[4,0]}
+      left={[4, 0]}
+      right={[4, 0]}
 
     >
       <motion.div
@@ -59,20 +59,20 @@ export default function ImageCarousel({
         transition={{ ease: "easeOut", duration: .2 }}
       >
         <Link href={`/${pathBefore}`} passHref>
-        <Box width={[6,70]}>
-          <a>
+          <Box width={[6, 10, 30, 70]}>
+            <a>
 
-            <Image
-              src="/arrow-left.svg"
-              alt="arrow Left"
-              width={70}
-              height={70}
-              loading="eager"
-              layout="responsive"
+              <Image
+                src="/arrow-left.svg"
+                alt="arrow Left"
+                width={70}
+                height={70}
+                loading="eager"
+                layout="responsive"
 
-            />
-          </a>
-            </Box>
+              />
+            </a>
+          </Box>
         </Link>
       </motion.div>
 
@@ -83,15 +83,15 @@ export default function ImageCarousel({
         variants={pageVariants}
         transition={pageTransition}
 
-      > <Box  width={[240,800]}>
-        <Image
-          src={`/${image}`}
-          alt={`motorcycle ${image}`}
-          width={800}
-          height={631}
-          loading="eager"
-          priority
-        />
+      > <Box width={[240, 340, 500, 800]}>
+          <Image
+            src={`/${image}`}
+            alt={`motorcycle ${image}`}
+            width={800}
+            height={631}
+            loading="eager"
+            priority
+          />
         </Box>
       </motion.div>
 
@@ -102,21 +102,21 @@ export default function ImageCarousel({
         transition={{ ease: "easeOut", duration: .2 }}
       >
         <Link href={`/${pathAfter}`} passHref >
-          <Box width={[6,70]}>
-          <a>
+          <Box width={[6, 10, 30, 70]}>
+            <a>
 
-            <Image
-              src="/arrow-right.svg"
-              alt="arrow Right"
-              width={70}
-              height={70}
-              loading="eager"
-              layout="responsive"
+              <Image
+                src="/arrow-right.svg"
+                alt="arrow Right"
+                width={70}
+                height={70}
+                loading="eager"
+                layout="responsive"
 
 
-            />
+              />
 
-          </a>
+            </a>
           </Box>
         </Link>
       </motion.div>

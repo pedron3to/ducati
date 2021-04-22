@@ -20,7 +20,7 @@ export const theme = extendTheme({
 
     },
     h4: {
-      fontSize: ["20px","50px"],
+      fontSize: ["16px", "28px", "28px", "50px"],
       fontWeight: "regular",
       fontFamily: "Italianno",
     },

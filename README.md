@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-   ♻️ <a href="#Ducati"> Monster Line Ducati Web Page </a>
+   <a href="#Ducati"> Monster Line Ducati Web Page </a>
 </h1>
 
 
