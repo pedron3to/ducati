@@ -76,7 +76,7 @@ export default function ImageCarousel({
         exit={{ x: "-100vh", opacity: 0, }}
         variants={pageVariants}
         transition={pageTransition}
-        w={800}
+
       > <Box  width={[240,800]}>
         <Image
           src={`/${image}`}

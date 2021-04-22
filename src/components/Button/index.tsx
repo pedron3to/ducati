@@ -15,10 +15,10 @@ export default function Button({ color }: ButtonProps) {
       <ChakraButton
         as="button"
         boxShadow="dark-lg"
+        width={16}
         height={16}
         border="none"
         _hover={{ filter: "brightness(0.9)" }}
-        width={16}
         borderRadius={[12, 16]}
         bgColor={color}
       />
