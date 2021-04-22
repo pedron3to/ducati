@@ -30,7 +30,7 @@ export default function DisplayInformation({
       flexDirection={["column", "column", "row", "row"]}
       borderRadius={[16, 32, 48]}
       bg="white"
-      mt={[20, 40]}
+      mt={["74px", 40]}
       mx={4}
       py={[5,8]}
       px={[5,8]}

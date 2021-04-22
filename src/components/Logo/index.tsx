@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <>
 
-      < Box p={[2, 4]} w={[14,90]}>
+      < Box p={[3, 4]} w={[14,90]} mt={[2,0]}>
         <Image
           src="/logo.webp"
           alt="Ducati Logo"

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion'
 import { Flex, Box } from "@chakra-ui/react"
 import Link from 'next/link'
@@ -47,7 +47,7 @@ export default function ImageCarousel({
       position="absolute"
       justify='center'
       align="center"
-      top={["80px",150]}
+      top={["64px",150]}
       ml="auto"
       mr="auto"
       left={[4,0]}
@@ -59,14 +59,18 @@ export default function ImageCarousel({
         transition={{ ease: "easeOut", duration: .2 }}
       >
         <Link href={`/${pathBefore}`} passHref>
+        <Box width={[6,70]}>
           <a>
+
             <Image
               src="/arrow-left.svg"
               alt="arrow Left"
               width={70}
               height={70}
+
             />
           </a>
+            </Box>
         </Link>
       </motion.div>
 
@@ -77,14 +81,13 @@ export default function ImageCarousel({
         variants={pageVariants}
         transition={pageTransition}
 
-      > <Box  width={[240,800]}>
+      > <Box  width={[220,800]}>
         <Image
           src={`/${image}`}
           alt={`motorcycle ${image}`}
           width={800}
           height={631}
-          layout="responsive"
-          //loading="eager"
+
           priority
         />
         </Box>
@@ -97,15 +100,20 @@ export default function ImageCarousel({
         transition={{ ease: "easeOut", duration: .2 }}
       >
         <Link href={`/${pathAfter}`} passHref >
+          <Box width={[6,70]}>
           <a>
+
             <Image
               src="/arrow-right.svg"
               alt="arrow Right"
               width={70}
               height={70}
 
+
             />
+
           </a>
+          </Box>
         </Link>
       </motion.div>
 

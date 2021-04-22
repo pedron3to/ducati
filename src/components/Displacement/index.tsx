@@ -16,7 +16,7 @@ export default function Displacement({ displacement }: DisplacementProps) {
         duration: 0.7
       }}
     >
-      <Box textStyle="h1" color="white" fontSize={[70, 180]} >{displacement}</Box>
+      <Box textStyle="h1" color="white" fontSize={[52, 180]} >{displacement}</Box>
     </motion.div>
   )
 }
