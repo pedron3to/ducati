@@ -17,7 +17,7 @@ export default function MotorcycleInformation({ title, information }: BoxProps) 
         transition={{
           type: "tween",
           ease: "easeOut",
-          duration: 0.2
+          duration: 0.5
         }}
       >
         <Box textStyle="h2" letterSpacing={[1, 3]}>{information}</Box>
