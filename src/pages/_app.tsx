@@ -1,7 +1,7 @@
 import { AppProps } from "next/app"
 import { ChakraProvider } from "@chakra-ui/react"
 import { theme } from "../styles/theme"
-git import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import { useRouter } from "next/router"
 import Layout from '../components/Layout'
 
