@@ -25,7 +25,7 @@ export default function DisplayInformation({
   return (
     <Flex
       align={["flex-star", "flex - end"]}
-      justifyContent="space-between"
+      justifyContent={["center","space-between"]}
       maxW={1180}
       flexDirection={["column", "column", "row", "row"]}
       borderRadius={[16, 32, 48]}
