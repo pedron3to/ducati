@@ -12,7 +12,7 @@ export default function Logo() {
           alt="Ducati Logo"
           width={90}
           height={97}
-          //loading="eager"
+          loading="eager"
           layout="responsive"
           priority
 
@@ -25,7 +25,7 @@ export default function Logo() {
           width={300}
           height={16}
           layout="responsive"
-          //loading="eager"
+          loading="eager"
           priority
 
         />

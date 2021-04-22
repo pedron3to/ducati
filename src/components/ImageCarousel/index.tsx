@@ -67,6 +67,8 @@ export default function ImageCarousel({
               alt="arrow Left"
               width={70}
               height={70}
+              loading="eager"
+              layout="responsive"
 
             />
           </a>
@@ -87,7 +89,7 @@ export default function ImageCarousel({
           alt={`motorcycle ${image}`}
           width={800}
           height={631}
-
+          loading="eager"
           priority
         />
         </Box>
@@ -108,6 +110,8 @@ export default function ImageCarousel({
               alt="arrow Right"
               width={70}
               height={70}
+              loading="eager"
+              layout="responsive"
 
 
             />
