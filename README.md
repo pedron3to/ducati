@@ -7,7 +7,7 @@
 </h1>
 
 <h3 align="center">
-    Turn Redesign made by [Dmitriy Ivanenko](https://dribbble.com/Dmitriy_Ivanenko) into reality
+    Turn Redesign made by Dmitriy Ivanenko into reality
 </h3>
 
 <h4 align="center">
@@ -31,7 +31,7 @@
 
 ### Layout
 
-The layout is available on [dribble:](https://dribbble.com/shots/12512893-Ducati-Redesign)
+The layout is available on [dribble.](https://dribbble.com/shots/12512893-Ducati-Redesign)
 
 ---
 
